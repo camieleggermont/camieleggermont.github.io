@@ -12,7 +12,7 @@ Plugins are basically [REST APIs with an OpenAPI specification and a separate st
 
 ## Building a Plugin
 
-To start experimenting with plugins I create an application in ASP.NET Core, using the ASP.NET Core Web App template in Visual Studio. When configuring a project, make sure you have the checkmark “Enable OpenAPI support” switched on. This will add the Swagger Generation, enables SwaggerUI, etc. You can find [more information about Swagger / OpenAPI here](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle). 
+To start experimenting with plugins I created an application in ASP.NET Core, using the ASP.NET Core Web App template in Visual Studio. When configuring a project, make sure you have the checkmark “Enable OpenAPI support” switched on. This will add the Swagger Generation, enables SwaggerUI, etc. You can find [more information about Swagger / OpenAPI here](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle). 
 
 My test project is a really simple ToDo project (how original), without a data store and there is no logged in user. You can find the code [here on Github](https://github.com/camieleggermont/ChatGPT-Plugin-dotnet). The API has a few endpoints to create ToDo items, list them (all, based on a search term, or on due date), and mark the item as completed.
 
@@ -90,7 +90,7 @@ The other thing needed to run the plugin is the manifest file. This file needs t
     "is_user_authenticated": false
   },
   "logo_url": "https://localhost:7026/todo.png",
-  "contact_email": "ceggermont@xpirit.com",
+  "contact_email": "camiel.eggermont@gmail.com",
   "legal_info_url": "http://camiel.io/legal"
 }
 ```
@@ -111,7 +111,7 @@ Note that there are some limitations to the manifest file. For instance, the des
 
 ### Set up CORS
 
-ChatGPT calls your plugin (the API, OpenAPI specification and manifest) from an other origin. Unless you explicitly allow that it is denied. I added an “all allowed” CORS policy, which is probably not the best idea for a production environment, but will do for my test. In program.cs, do the following:
+ChatGPT calls your plugin (the API, OpenAPI specification and manifest) from another origin. Unless you explicitly allow that it is denied. I added an “all allowed” CORS policy, which is probably not the best idea for a production environment, but will do for my test. In program.cs, do the following:
 
 1. Add CORS 
 
