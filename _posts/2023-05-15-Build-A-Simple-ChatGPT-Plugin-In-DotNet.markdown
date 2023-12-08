@@ -2,8 +2,6 @@
 excerpt_separator: <!--more-->
 ---
 
-## Introduction
-
 In March of this year, OpenAI announced a plugin model with which developers can connect ChatGPT to external systems via APIs. These plugins enable ChatGPT to query external systems (for instance, live data), but also make it possible for ChatGPT to perform tasks on behalf of the user. This is potentially a big step in making ChatGPT an even more personal assistant.
  <!--more-->
 Access to plugins was restricted, but last Friday OpenAI [made the feature available for all ChatGPT Plus users](https://help.openai.com/en/articles/6825453-chatgpt-release-notes). The feature can be found in the Beta features and can be enabled there. There are already quite a few plugins available in the Plugin Store, such as plugins for Expedia, Wolfram, and Zapier.
