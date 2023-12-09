@@ -22,7 +22,7 @@ title: camiel.io
 email: camiel.eggermont@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My notes about the things I learn and do.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://blog.camiel.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: camieleggermont
 github_username:  camieleggermont
