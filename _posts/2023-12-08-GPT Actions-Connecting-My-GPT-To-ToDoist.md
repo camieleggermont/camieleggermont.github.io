@@ -252,7 +252,9 @@ The feedback should say that you are logged on. A bug (again) in the GPT builder
 
 When you give consent to execute the action, GPT will call the API and get your tasks!
 
-[GPT-ToDoist.mp4]({{ site.baseurl }}/images/gpt-actions/GPT-ToDoist.mp4)
+<video width="100%" controls="controls" autoplay loop>
+  <source src="{{ site.baseurl }}/images/gpt-actions/GPT-ToDoist.mp4" type="video/mp4">
+</video>
 
 ## Granting Consent for Actions
 
