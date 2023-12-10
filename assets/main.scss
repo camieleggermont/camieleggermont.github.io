@@ -1,0 +1,23 @@
+---
+---
+@import "minima";
+
+// Full screen fixed background image
+body {
+  background-image: url({{ site.baseurl }}/assets/images/cover.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.site-footer, .site-header {
+  border-top: 0;
+  border-bottom: 0;
+}
