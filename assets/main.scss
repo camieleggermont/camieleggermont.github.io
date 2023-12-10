@@ -1,9 +1,11 @@
 ---
 ---
 @import "minima";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sedgwick+Ave&display=swap');
 
 // Full screen fixed background image
 body {
+  font-family: 'Roboto', sans-serif;
   background-image: url({{ site.baseurl }}/assets/images/cover.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,4 +22,9 @@ body {
 .site-footer, .site-header {
   border-top: 0;
   border-bottom: 0;
+}
+
+//Show headers in the permanent marker font
+h1, h2, h3, h4, h5, h6, .site-title {
+  font-family: 'Sedgwick Ave', cursive;
 }
