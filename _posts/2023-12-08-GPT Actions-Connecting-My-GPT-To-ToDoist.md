@@ -260,7 +260,7 @@ During my test, I had to provide consent for every action, every time. This beco
 
 To circumvent this issue, one could set the “x-openai-isConsequential” property in the OpenAPI specification to false. This signifies that the action has no real consequence and can be executed. Ideally, this should introduce an “Allow Always” option when the API is first called.
 
-However, I have not been successful in using this feature: I am still required to give permission for the Action to execute each time. This could potentially be another bug or perhaps a mistake on my part. 🙂
+~~However, I have not been successful in using this feature: I am still required to give permission for the Action to execute each time. This could potentially be another bug or perhaps a mistake on my part. 🙂~~ Solved this issue! Checks [Why Isn't 'x-openai-isConsequential' Working in GPT Actions? Solved it!]({% post_url 2023-12-11-Why Isn't x-openai-isConsequential Working in GPT Actions Solved it! %})
 
 ## Conclusion
 
