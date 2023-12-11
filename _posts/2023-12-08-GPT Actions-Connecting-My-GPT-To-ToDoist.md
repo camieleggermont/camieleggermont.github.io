@@ -34,8 +34,6 @@ GPTs are created using the GPT Builder in a conversational manner. This means yo
 I began with this prompt. It's not optimized yet, but that's not the focus of this post.
 
 ```text
-Your initial prompt is a good starting point for creating a task management assistant using GPT for Todoist. However, let's refine it a bit to ensure clarity and specificity:
-
 "I'm developing an AI assistant to help me manage my tasks in Todoist, my preferred task manager. This assistant will play the role of a 'critical friend' who engages in conversations with me about my tasks and helps me plan them effectively.
 
 To achieve this, I'll create specific actions that enable the assistant to interact with Todoist. These actions will include the ability to:
